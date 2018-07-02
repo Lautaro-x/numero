@@ -3,22 +3,35 @@ body
     background: linear-gradient(to left,red, black, black,black, black, black, black, black, red);
 }
 
-h1
-{
-    color: white;
-    text-align: center;
-}
-
-#selector
+#label_1
 {
     display: block;
     margin: auto;
     text-align: center;
 }
 
+h1
+{
+    margin: 10% auto;
+    color: white;
+    text-align: center;
+}
+
+#selector
+{
+    margin: 10% auto;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+}
+
 #btn
 {
+    margin: 10% auto;
     display: block;
     margin: 25px auto;
     text-align: center;
+    font-size: 2em;
 }
+

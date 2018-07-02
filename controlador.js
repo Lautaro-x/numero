@@ -21,7 +21,9 @@ $(document).ready(function(){
         function(){
             // Aca ponemos el numero que queremos.
             var entero = parseInt(Math.random()*999999);
-            $("#texto").text("Su número es: " + entero);
+            $("#label_1").text("Su número es: ");
+            $("#label_1").attr('style','color: white');
+            $("#texto").text(entero);
         }
     );
 });

@@ -24,6 +24,11 @@ h1
     margin: auto;
     text-align: center;
     font-size: 2em;
+    padding: 10px;
+    color: red;
+    background-color: black;
+    border-radius: 6px;
+    border: 2px solid red;
 }
 
 #btn
@@ -33,5 +38,19 @@ h1
     margin: 25px auto;
     text-align: center;
     font-size: 2em;
+    padding: 3px;
+    color: red;
+    background-color: black;
+    border-radius: 6px;
+    border: 2px solid red;
+}
+#btn:hover
+{
+    background-color: red;
+    color: black;
 }
 
+.container
+{
+    margin-top: 10%;
+}

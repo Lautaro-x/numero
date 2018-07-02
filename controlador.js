@@ -4,7 +4,7 @@ window.onload = cargarselect();
 function cargarselect(){
 
     ///Aca cargamos los elementos desde la base de datos...
-    var elementos = ["elemento 1", "elemento 2", "elemento 3", "elemento 4..."];
+    var elementos = ["10%", "20%", "30%", "40%", "50%", "60%", "70%"];
 
     var select_elementos = document.getElementById("selector");
     

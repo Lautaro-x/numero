@@ -1,4 +1,24 @@
 body
 {
-    background: linear-gradient(red, black, black, black, red);
+    background: linear-gradient(to left,red, black, black,black, black, black, black, black, red);
+}
+
+h1
+{
+    color: white;
+    text-align: center;
+}
+
+#selector
+{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#btn
+{
+    display: block;
+    margin: 25px auto;
+    text-align: center;
 }

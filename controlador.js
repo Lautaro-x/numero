@@ -22,7 +22,7 @@ $(document).ready(function(){
             // Aca ponemos el numero que queremos.
             var entero = parseInt(Math.random()*999999);
             $("#label_1").text("Su número es: ");
-            $("#label_1").attr('style','color: white');
+            $("#label_1").css('color', 'white');
             $("#texto").text(entero);
         }
     );
